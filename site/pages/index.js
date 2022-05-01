@@ -2,20 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-const statList = [
-  {
-    name: "Do You have mail?",
-    description: "Is there mail in you mailbox?",
-    tag: "isThereMail",
-  },
-  {
-    name: "Number of opens",
-    description:
-      "The number of times my mailbox was opened since installation.",
-    tag: "numOpens",
-  },
-];
-
 export default function Home() {
   // Runs on page load only
   useEffect(() => {
@@ -34,7 +20,9 @@ export default function Home() {
       </Head>
 
       <main className="grid grid-cols-2 gap-6 place-items-center min-h-screen bg-gradient-to-br from-slate-800 to-green-900">
-        <h1 className="col-span-2 text-8xl text-white font-black py-12">Mail Stats</h1>
+        <h1 className="col-span-2 text-8xl text-white font-black py-12">
+          Mail Stats
+        </h1>
 
         {/* Do you have mail? */}
         <div className="w-4/5 bg-transparent border-slate-500 border-4 h-64 rounded-3xl p-6 shadow-2xl text-white hover:border-green-300 hover:shadow-green-300">
@@ -62,7 +50,9 @@ export default function Home() {
 
         {/* Number of opens */}
         <div className="w-4/5 bg-transparent border-slate-500 border-4 h-64 rounded-3xl p-6 shadow-2xl text-white hover:border-green-300 hover:shadow-green-300">
-          <h2 className="text-2xl text-white font-bold">Average Delivery Time</h2>
+          <h2 className="text-2xl text-white font-bold">
+            Average Delivery Time
+          </h2>
           <div className="flex pt-12">
             <div className="w-1/2 text-6xl font-black pl-2">
               10:36 <span className="text-2xl font-black">Am</span>
@@ -72,7 +62,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
       </main>
     </div>
   );
