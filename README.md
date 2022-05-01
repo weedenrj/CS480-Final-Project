@@ -1,5 +1,5 @@
 # CS480-Final-Project
-###Teammates
+### Teammates
 <ol>
 <li>Robert Weeden</li>
 <li>Ryan Scheuer</li>
