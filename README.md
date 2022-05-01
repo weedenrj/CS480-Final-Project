@@ -1,4 +1,7 @@
 # CS480-Final-Project
+
+This dashboard can be viewed on any device: [here](https://cs-480-final-project.vercel.app/)
+
 ### Teammates
 <ol>
 <li>Robert Weeden</li>
